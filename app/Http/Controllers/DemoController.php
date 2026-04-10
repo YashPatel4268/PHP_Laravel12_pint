@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class DemoController extends Controller
 {
     public function test()
@@ -12,8 +10,9 @@ class DemoController extends Controller
     }
 
     //  Bad formatted code (for testing Pint)
-    public function badCode(){
-    return "this   is    badly formatted code";
+    public function badCode()
+    {
+        return 'this   is    badly formatted code';
     }
 
     //  Clean code
